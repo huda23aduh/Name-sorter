@@ -63,7 +63,7 @@ namespace Name_sorter
             }
         }
 
-        private bool fileCheckingFunc(string filename)
+        public bool fileCheckingFunc(string filename)
         {
             return File.Exists(the_dir + filename + inputfileextension);
         }
