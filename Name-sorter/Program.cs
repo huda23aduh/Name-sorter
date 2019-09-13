@@ -13,7 +13,7 @@ namespace Name_sorter
 
         static void Main(string[] args)
         {
-            mainProcessFunc("unsorted-names-listaa");
+            mainProcessFunc("unsorted-names-list");
         }
 
         private static void mainProcessFunc(string filename)

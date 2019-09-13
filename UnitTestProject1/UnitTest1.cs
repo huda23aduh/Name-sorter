@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.Extensions.Logging;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,11 +35,8 @@ namespace UnitTestProject1
                 .OrderBy(x => x.Firstname)
                 .ThenBy(x => x.Name)
                 .ToList();
-
-            foreach (var s in lines)
-            {
-                Console.WriteLine(s.Name + " " + s.Firstname);
-            }
+                       
+            
         }
     }
 }
